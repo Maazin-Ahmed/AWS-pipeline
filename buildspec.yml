@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started
-      - grep -Fq "zues" index.html
+      - grep -Fq "Zues" index.html
   post_build:
     commands:
       - echo Entered the post_build phase...
