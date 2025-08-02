@@ -12,9 +12,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started
-      - grep -Fq "yolo" index.html
-  finally:
-      - echo This always runs even if the install command fails
+      - grep -Fq "zues" index.html
   post_build:
     commands:
       - echo Entered the post_build phase...
